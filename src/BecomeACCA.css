@@ -1,0 +1,141 @@
+.main-container{
+    background:rgb(241, 248, 250);
+    background-size: cover;
+    
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.first-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: left;
+    align-content: center;
+    justify-content:space-evenly;
+   
+    
+    
+}
+.head{
+    margin-bottom: 20px;
+}
+.para{
+    margin-bottom:20px ;
+    font-size: large;
+}
+
+.card-container{
+    display: flex;
+    position: relative;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+
+.card{
+    box-shadow: rgba(156, 31, 218, 0.16) 0px 3px 6px, rgba(167, 65, 210, 0.23) 0px 3px 6px;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+}
+.card-name{
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    margin-bottom: 7px;
+    text-align: center;
+    font-size: medium;
+
+}
+.caption{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.range{
+    font-size: 15px;
+    font-weight:bold;
+    text-align: center;
+}
+
+.button-container{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.button{
+    background-color:rgb(122, 32, 207);
+    height: 40px;
+    width: 200px;
+    color: white;
+    border-radius:6px;
+    font-size:17px;
+    padding: 8px;
+    border-style: none;
+    font-weight: 600;
+}
+.button:hover{
+    background-color:rgb(65, 7, 120);
+}
+
+.button-text-container{
+    display: flex;
+    width:170px;
+    height: 42px;
+    color: white;
+    background-color: crimson;
+    align-items: center;
+    font-size: small;
+    font-weight: bold;
+    gap: 16px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.ACCA{
+    border: 1px solid white;
+    height: 20px;
+    width: 31px;
+    font-size:7px;
+    padding:2px;
+    align-items: center;
+    padding-top: 5px;
+
+}
+
+.second-container{
+    align-content: center;
+    width: 460px;
+    height: auto;
+    background: white;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-top-width: 2px;
+    box-shadow: grey;
+    padding: 15px;
+    border-top-color: blueviolet;
+}
+.form-heading{
+    font-size:17px;
+
+
+
+}
+
+.input{
+    width: 400px;
+    border: 1px solid ;
+    margin: 15px; 
+    height: 40px;
+    border-radius: 6px; 
+}

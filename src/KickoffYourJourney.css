@@ -1,0 +1,25 @@
+.kick-off-main{
+    background:rgb(241, 248, 250);
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 70px;
+    margin-top: 70px;
+}
+.kick-off-first-container{
+    text-align: start;
+    margin-top: 20px;
+}
+
+
+.kick-off-heading{
+    font-weight: 600;
+    font-size:30px;
+    margin-bottom: 25px;
+
+}
+.kick-off-para{
+    font-size: 19px;
+    margin: 35px;
+    margin-left: 0px;
+}

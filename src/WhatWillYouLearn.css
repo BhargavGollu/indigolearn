@@ -1,0 +1,54 @@
+.what-will-you-learn{
+    margin-top: 50px;
+}
+.skills-card-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.skills-card{
+    height: 440px;
+    width: 370px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:rgb(241, 250, 253);
+    margin-top: 50px;
+    box-shadow:0 0 10px rgba(0, 0, 0,.1) ;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.skills-card:hover{
+    transform: scale(1.1);
+    z-index: 3;
+}
+.knowledge{
+    background-color: rgb(90, 7, 167);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    align-self: flex-start;
+    padding: 20px;
+    width: 370px;
+    
+}
+
+.courses{
+    margin-top: -120px;
+    margin-left: 50px;
+    
+}
+.courses-items{
+    font-size: 17px;
+    margin-bottom: 6px;
+    letter-spacing: 1px;
+}
+
+.papers{
+    background-color: rgb(90, 7, 167);
+    color: white;
+    font-size: 24px;
+    text-align: center;padding: 10px;
+    
+}

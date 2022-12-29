@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Header from "./Header"
+import BecomeACCA from './BecomeACCA'
+import WhyChooseUs from './WhyChooseUs'
+import Eligibility from './Eligibility'
+import WhatWillYouLearn from './WhatWillYouLearn'
+import PlacementAssistance from './PlacementAssistance'
+import KickoffYourJourney from './KickoffYourJourney'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <center>
+        <Header/>
+        <BecomeACCA/>
+        <WhyChooseUs/>
+        <Eligibility/>
+        <WhatWillYouLearn/>
+        <PlacementAssistance/>
+        <KickoffYourJourney/>
+
+      </center>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

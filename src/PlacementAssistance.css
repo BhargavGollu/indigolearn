@@ -1,0 +1,27 @@
+.placement-container{
+    background-color:rgb(226, 224, 241);
+    padding: 48px;
+    margin-top: 70px;
+}
+
+.placement-main-head{
+    text-align: center;
+    font-size: 39px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+.placement-sub-head{
+    margin: 15px;
+    font-size: 27px;
+    text-align: start;
+    font-weight: bold;
+    letter-spacing:0.5px;
+}
+
+.placement-para{
+    text-align: start;
+    margin: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
